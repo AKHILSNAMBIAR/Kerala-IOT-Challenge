@@ -1,4 +1,4 @@
-# <ins><ins>Kerala IoT Challenge</ins></ins>
+# <ins><u>Kerala IoT Challenge</u></ins>
 
 
 ## <ins>Introduction to IoT Challenge</ins>
