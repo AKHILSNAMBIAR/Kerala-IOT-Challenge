@@ -199,8 +199,8 @@ void setup()
    for (int i=BASE;i<)BASE+NUM);i++) 
    
    {
-   
-     pinMode(i, OUTPUT); <!---// set the pin with yellow LED as “output”--->
+  
+pinMode(i, OUTPUT); <!---// set the pin with yellow LED as “output”--->
      
    }
    
@@ -214,9 +214,9 @@ void loop()
    
    {
    
-     digitalWrite(i, LOW); <!---// set I/O pins as "output"--->
+digitalWrite(i, LOW); <!---// set I/O pins as "output"--->
      
-     delay(200); <!---// delay--->
+delay(200); <!---// delay--->
      
    }
    
@@ -224,9 +224,9 @@ void loop()
    
    {
    
-     digitalWrite(i, HIGH); <!--- //setI/Opinsas“high”,turnonLEDsonebyone --->
+digitalWrite(i, HIGH); <!--- //setI/Opinsas“high”,turnonLEDsonebyone --->
      
-     delay(200); <!--- //delay --->
+delay(200); <!--- //delay --->
      
    }  
    
