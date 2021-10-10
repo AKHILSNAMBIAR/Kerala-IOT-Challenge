@@ -188,9 +188,9 @@ digitalWrite(redled, LOW); <!---// turn off red LED--->
 
 ##### *Code:-*
 
-int BASE = 2 ;<!---// the I/O pin for the first LED--->
+int BASE = 2 ; <!---// the I/O pin for the first LED--->
 
-int NUM = 6;<!---// number of LEDs--->
+int NUM = 6; <!---// number of LEDs--->
 
 void setup()
 
@@ -200,7 +200,7 @@ void setup()
    
    {
    
-     pinMode(i, OUTPUT);<!---// set I/O pins as output--->
+     pinMode(i, OUTPUT); <!---// set I/O pins as output--->
      
    }
    
@@ -214,9 +214,9 @@ void loop()
    
    {
    
-     digitalWrite(i, LOW);<!---// set I/O pins as “low”, turn off LEDs one by one.--->
+     digitalWrite(i, LOW); <!---// set I/O pins as “low”, turn off LEDs one by one.--->
      
-     delay(200);<!---// delay--->
+     delay(200); <!---// delay--->
      
    }
    
@@ -224,9 +224,9 @@ void loop()
    
    {
    
-     digitalWrite(i, HIGH);<!---// set I/O pins as “high”, turn on LEDs one by one--->
+     digitalWrite(i, HIGH); <!---//set I/O pins as “high”, turn on LEDs one by one--->
      
-     delay(200);<!---// delay--->
+     delay(200); <!---//delay--->
      
    }  
    
