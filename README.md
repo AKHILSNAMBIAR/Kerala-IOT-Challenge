@@ -39,9 +39,11 @@
 
 ### Experiment No. 1
 #### Hello World LED Blinking
+##### *Aim:-*
 *To familiarize with blinking of LED using Arduino Uno.*
 
-*Components Required:-*
+##### *Components Required:-*
+
 | *No.* | *Component Name* | *Requirement* |
 | :---:         |     :---:      |          :---: |
 | *1*   | *Arduino Uno*    | *1*    |
@@ -51,7 +53,10 @@
 | *5* | *LED  | *1* |
 | *6*        | *USB Cable*     |   *1* |
 
-*Circuit Diagram:-*
+##### *Circuit Diagram:-*
+
+![image](https://user-images.githubusercontent.com/91836479/136679381-599e84b1-a273-495f-b942-5ce70445da4b.png)
+
 
 
 
