@@ -200,7 +200,7 @@ void setup()
    
    {
    
-     pinMode(i, OUTPUT); <!---// set I/O pins as output--->
+     pinMode(i, OUTPUT); <!---// set I/O pins as "output"---> <!---// set the pin with yellow LED as “output”--->
      
    }
    
@@ -214,7 +214,7 @@ void loop()
    
    {
    
-     digitalWrite(i, LOW); <!---//set I/O pins as “low”, turn off LEDs one by one.--->
+     digitalWrite(i, LOW); <!--- //set I/O pins as “low”, turn off LEDs one by one. --->
      
      delay(200); <!---// delay--->
      
@@ -224,9 +224,9 @@ void loop()
    
    {
    
-     digitalWrite(i, HIGH); <!---//setI/Opinsas“high”,turnonLEDsonebyone--->
+     digitalWrite(i, HIGH); <!--- //setI/Opinsas“high”,turnonLEDsonebyone --->
      
-     delay(200); <!---//delay--->
+     delay(200); <!--- //delay --->
      
    }  
    
