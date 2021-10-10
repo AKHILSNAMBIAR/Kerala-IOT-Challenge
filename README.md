@@ -109,7 +109,7 @@ delay(1000);<!---// wait for a second--->
  
 ![image](https://user-images.githubusercontent.com/91836479/136680440-22ce53be-7612-42de-8afb-730e9418cc9d.png)
 
-#### *Code:-*
+##### *Code:-*
 
 int redled =10; <!---// initialize digital pin 10.--->
 
@@ -161,6 +161,57 @@ delay(5000); <!---// wait 5 seconds--->
 digitalWrite(redled, LOW); <!---// turn off red LED--->
 
 }
+
+##### *Video Tutorial:-*
+
+
+### Experiment No. 3
+#### Chasing Effect 
+##### *Aim:-*
+
+*To compile a program to simulate LED chasing effect and practically model it using Arduino Uno.*
+
+##### *Components Required:-*
+
+| *No.* | *Component Name* | *Requirement* |
+| :---:         |     :---:      |          :---: |
+| *1*   | *Arduino Uno*    | *1*    |
+| *2*     | *Breadboard*       | *1*    |
+| *3*   | *Jumper wire (Male to Male)*     | *as per need*   |
+| *4*   | *Resistor (220ohms)*     | *6*      |
+| *5* | *LED*  | *6* |
+| *6*        | *USB Cable*     |   *1* |
+
+##### *Circuit Diagram:-*
+
+![image](https://user-images.githubusercontent.com/91836479/136680646-d6c07623-632b-4c05-96bf-9bdfd1004198.png)
+
+##### *Code:-*
+
+int BASE = 2 ;  <!---// the I/O pin for the first LED--->
+int NUM = 6;   <!---// number of LEDs--->
+void setup()
+{
+   for (int i = BASE; i < BASE + NUM; i ++) 
+   {
+     pinMode(i, OUTPUT);   <!---// set I/O pins as output--->
+   }
+}
+void loop()
+{
+   for (int i = BASE; i < BASE + NUM; i ++) 
+   {
+     digitalWrite(i, LOW);    <!---// set I/O pins as “low”, turn off LEDs one by one.--->
+     delay(200);        <!---// delay--->
+   }
+   for (int i = BASE; i < BASE + NUM; i ++) 
+   {
+     digitalWrite(i, HIGH);    <!---// set I/O pins as “high”, turn on LEDs one by one--->
+     delay(200);        <!---// delay--->
+   }  
+}
+
+
 
 
 
