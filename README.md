@@ -200,7 +200,7 @@ void setup()
    
    {
    
-     pinMode(i, OUTPUT); <!---// set I/O pins as "output"---> <!---// set the pin with yellow LED as “output”--->
+     pinMode(i, OUTPUT); <!---// set the pin with yellow LED as “output”--->
      
    }
    
