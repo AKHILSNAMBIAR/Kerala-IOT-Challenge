@@ -50,7 +50,7 @@
 | *2*     | *Breadboard*       | *1*    |
 | *3*   | *Jumper wire (Male to Male)*     | *2*   |
 | *4*   | *Resistor (220ohms)*     | *1*      |
-| *5* | *LED  | *1* |
+| *5* | *LED*  | *1* |
 | *6*        | *USB Cable*     |   *1* |
 
 ##### *Circuit Diagram:-*
