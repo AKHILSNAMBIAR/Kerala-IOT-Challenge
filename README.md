@@ -21,7 +21,7 @@
 
 ## Iot Challenge Experiments
 
-*The following list of experiments are to be coompleted in this Level 1 Iot Challenge:-*
+*Following are the list of experiments which are to be completed in this Level 1 Iot Challenge:-*
 
 | *Experiment No* | *Name of Experiments* |
 | ------------- | ------------- |
