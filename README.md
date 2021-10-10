@@ -58,24 +58,31 @@
 ![image](https://user-images.githubusercontent.com/91836479/136679381-599e84b1-a273-495f-b942-5ce70445da4b.png)
 
 ##### *Code:-*
-'''
+
 int ledPin = 10; <!---// define digital pin 10.--->
 
 void setup()
 
 {
+
 pinMode(ledPin, OUTPUT);<!---// define pin with LED connected as output.--->
+
 }
 
 void loop()
 
 {
+
 digitalWrite(ledPin, HIGH);<!---// set the LED on.--->
+
 delay(1000); <!---// wait for a second.--->
+
 digitalWrite(ledPin, LOW); <!---// set the LED off.--->
+
 delay(1000);<!---// wait for a second--->
+
 }
-'''
+
 
 
 
