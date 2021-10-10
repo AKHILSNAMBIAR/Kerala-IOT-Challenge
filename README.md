@@ -196,7 +196,7 @@ void setup()
 
 {
 
-   for (int i = BASE; i < BASE + NUM; i ++) 
+   for (int i=BASE;i<)BASE+NUM);i++) 
    
    {
    
@@ -210,11 +210,11 @@ void loop()
 
 {
 
-   for (int i = BASE; i < BASE + NUM; i ++) 
+   for (int i=BASE; i<(BASE+NUM);i++) 
    
    {
    
-     digitalWrite(i, LOW); <!--- //set I/O pins as “low”, turn off LEDs one by one. --->
+     digitalWrite(i, LOW); <!---// set I/O pins as "output"--->
      
      delay(200); <!---// delay--->
      
