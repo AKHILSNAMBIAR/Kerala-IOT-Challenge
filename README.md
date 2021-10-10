@@ -42,20 +42,18 @@
 *To familiarize with blinking of LED using Arduino Uno.*
 
 *Components Required:-*
+| *No.* | *Component Name* | *Requirement* |
+| :---:         |     :---:      |          :---: |
+| *1*   | *Arduino Uno*    | *1*    |
+| *2*     | *Breadboard*       | *1*    |
+| *3*   | *Jumper wire (Male to Male)*     | *2*   |
+| *4*   | *Resistor (220ohms)*     | *1*      |
+| *5* | *LED  | *1* |
+| *6*        | *USB Cable*     |   *1* |
 
-| *No.* | *Component Name* | *Required* |
-| --- | --- |
-|1.|Arduino Uno  | 1 |
-|2.|USB Cable  | 2|
-| 3. | LED |1|
-| 4. | Resisitor(220 ohms)  | 1 |
-| 5. | Breadboard | 1 |
-| 6. | Jumper Wire   | 2 |
-*1. Arduino Uno Board*
-*2. USB Cable*
-*3. L D (Any Color) x 1 Nos
-*4. 220 OHM Resistor X 1 Nos
-*5. Breadboard
-*6. Jumper Wires (Male to Male ) X 2 Nos
+*Circuit Diagram:-*
+
+
+
 
 
