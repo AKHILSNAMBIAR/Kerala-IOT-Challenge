@@ -17,7 +17,7 @@
 
 *The following image will give us a better picture of IoT :-* 
 
-<img src="https://user-images.githubusercontent.com/91836479/136671233-fc09dfe1-8324-4423-98a1-829520fd84d1.jpg">
+                                      <img src="https://user-images.githubusercontent.com/91836479/136671233-fc09dfe1-8324-4423-98a1-829520fd84d1.jpg">
 
 ## Iot Challenge Experiments
 
