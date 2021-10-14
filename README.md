@@ -254,7 +254,7 @@ delay(200); <!--- //delay --->
 
 ##### *Circuit Diagram:-*
 
-### Experiment No. 1
+### Experiment No. 5
 #### Buzzer
 ##### *Aim:-*
 *To familiarize with buzzer using Arduino Uno.*
@@ -270,6 +270,24 @@ delay(200); <!--- //delay --->
 | *5*        | *USB Cable*     |   *1* |
 
 ##### *Circuit Diagram:-*
+
+### Experiment No. 6
+#### RGB LED
+##### *Aim:-*
+*To familiarize with RGB LED using Arduino Uno.*
+
+##### *Components Required:-*
+
+| *No.* | *Component Name* | *Requirement* |
+| :---:         |     :---:      |          :---: |
+| *1*   | *Arduino Uno*    | *1*    |
+| *2*     | *Breadboard*       | *1*    |
+| *3*   | *Jumper wire (Male to Male)*     | *as per need*   |
+| *4*   | *RGB LED*  | *1*      |
+| *5*        | *USB Cable*     |   *1* |
+
+##### *Circuit Diagram:-*
+
 
 
 
