@@ -376,6 +376,22 @@ delay(200); <!--- //delay --->
 | *4*   | *10Kohms Potentiometer*  | *1*      |
 | *5*        | *USB Cable*     |   *1* |
 
+### Experiment No. 12
+#### 7 Segment Display
+##### *Aim:-*
+
+*To compile a program to operate a 7Segment Display and simulate the model using Arduino Uno.*
+
+##### *Components Required:-*
+
+| *No.* | *Component Name* | *Requirement* |
+| :---:         |     :---:      |          :---: |
+| *1*   | *Arduino Uno*    | *1*    |
+| *2*     | *Breadboard*       | *1*    |
+| *3*   | *Jumper wire (Male to Male)*     | *as per need*   |
+| *4*   | *Resistor (220ohms)*     | *8*      |
+| *5* | *1-digit LED Segment Display*  | *1* |
+| *6*        | *USB Cable*     |   *1* |
 
 
 
