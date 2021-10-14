@@ -308,7 +308,7 @@ delay(200); <!--- //delay --->
 | *7*        | *USB Cable*     |   *1* |
 | *8* | *LDR sensor*  | *1* |
 
-### Experiment No. 5
+### Experiment No. 8
 #### Flame Sensor
 ##### *Aim:-*
 
@@ -325,6 +325,22 @@ delay(200); <!--- //delay --->
 | *5* | *Buzzer*  | *6* |
 | *6*        | *USB Cable*     |   *1* |
 | *7*        | *Flame Sensor*     |   *1* |
+
+### Experiment No. 9
+#### LM35 Sensor
+##### *Aim:-*
+*To familiarize with LM35 sensor using Arduino Uno.*
+
+##### *Components Required:-*
+
+| *No.* | *Component Name* | *Requirement* |
+| :---:         |     :---:      |          :---: |
+| *1*   | *Arduino Uno*    | *1*    |
+| *2*     | *Breadboard*       | *1*    |
+| *3*   | *Jumper wire (Male to Male)*     | *as per need*   |
+| *4*   | *LM35 Sensor*     | *1*      |
+| *5*        | *USB Cable*     |   *1* |
+
 
 
 
