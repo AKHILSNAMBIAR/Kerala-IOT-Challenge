@@ -315,7 +315,7 @@ digitalWrite(ledpin,HIGH);
 
 ##### *Code:-*
 
-int buzzer=8;<!---// initialize digital IO pin that controls the buzzer--->--->
+int buzzer=8;<!---// initialize digital IO pin that controls the buzzer--->
 
 void setup() 
 
@@ -352,6 +352,63 @@ digitalWrite(buzzer, HIGH); <!---// produce sound--->
 ##### *Circuit Diagram:-*
 
 ##### *Code:-*
+int redpin = 11; <!---//select the pin for the red LED--->
+
+int bluepin =10; <!---// select the pin for the blue LED--->
+
+int greenpin =9;<!---// select the pin for the green LED--->
+
+int val;
+
+void setup() 
+
+{
+
+pinMode(redpin, OUTPUT);
+
+pinMode(bluepin, OUTPUT);
+
+pinMode(greenpin, OUTPUT);
+
+Serial.begin(9600);
+
+}
+
+void loop() 
+
+{
+
+for(val=255; val>0; val--)
+
+{
+   
+analogWrite(11, val);
+   
+analogWrite(10, 255-val);
+
+analogWrite(9, 128-val);
+
+delay(1); 
+
+}
+
+for(val=0; val<255; val++)
+
+{
+
+analogWrite(11, val);
+
+analogWrite(10, 255-val);
+
+analogWrite(9, 128-val);
+
+delay(1);
+ 
+}
+ 
+Serial.println(val, DEC);
+
+}
 
 
 ### Experiment No. 7
@@ -377,6 +434,38 @@ digitalWrite(buzzer, HIGH); <!---// produce sound--->
 
 ##### *Code:-*
 
+int potpin=0; <!---// initialize analog pin 0, connected with photovaristor--->
+
+int ledpin=11;<!---// initialize digital pin 11 --->
+
+int val=0;<!---// initialize variable val--->
+
+void setup()
+
+{
+
+pinMode(ledpin,OUTPUT);<!---// set digital pin 11 as “output”--->
+
+Serial.begin(9600);<!---// set baud rate at “9600”--->
+
+}
+
+void loop()
+
+{
+
+val=analogRead(potpin);<!---// read the value of the sensor and assign it to val--->
+
+Serial.println(val);<!---// display the value of val--->
+Serial.println(val);<!---// display the value of val--->
+
+analogWrite(ledpin,val/4);<!---// set up brightness（maximum value 255）--->
+
+delay(10);<!---// wait for 0.01 --->
+
+}
+
+
 ### Experiment No. 8
 #### Flame Sensor
 ##### *Aim:-*
@@ -399,6 +488,52 @@ digitalWrite(buzzer, HIGH); <!---// produce sound--->
 
 ##### *Code:-*
 
+int flame=0;<!---// select analog pin 0 for the sensor --->
+
+int Beep=9;<!---// select digital pin 9 for the buzzer --->
+
+int val=0;<!---// initialize variable --->
+
+void setup()
+
+{
+
+pinMode(Beep,OUTPUT);<!---// set LED pin as “output” --->
+
+pinMode(flame,INPUT);<!---// set buzzer pin as “input” --->
+
+Serial.begin(9600);<!---// set baud rate at “9600” --->
+
+} 
+
+void loop() 
+
+{ 
+
+val=analogRead(flame);<!---// read the analog value of the sensor ---> 
+
+Serial.println(val);<!---// output and display the analog value --->
+
+if(val>=600)<!---// when the analog value is larger than 600, the buzzer will buzz --->
+
+{  
+
+digitalWrite(Beep,HIGH); 
+   
+}
+   
+else 
+   
+{  
+
+digitalWrite(Beep,LOW); 
+     
+}
+
+delay(500); 
+
+}
+
 ### Experiment No. 9
 #### LM35 Sensor
 ##### *Aim:-*
@@ -417,6 +552,38 @@ digitalWrite(buzzer, HIGH); <!---// produce sound--->
 ##### *Circuit Diagram:-*
 
 ##### *Code:-*
+
+int potPin = 0; <!---// initialize analog pin 0 for LM35 temperature sensor --->
+
+void setup()
+
+{
+
+Serial.begin(9600);<!---// set baud rate at”9600” --->
+
+}
+
+void loop()
+
+{
+
+int val;<!---// define variable --->
+
+int dat;<!---// define variable --->
+
+val=analogRead(0);<!---// read the analog value of the sensor and assign it to val --->
+
+dat=(125*val)>>8;<!---// temperature calculation formula ---> 
+
+Serial.print("Tep");<!---// output and display characters beginning with Tep --->
+
+Serial.print(dat);<!---// output and display value of dat --->
+
+Serial.println("C");<!---// display “C” characters --->
+
+delay(500);<!---// wait for 0.5 second --->
+
+}
 
 ### Experiment No. 10
 #### IR Remote Control Using TSOP 
@@ -441,6 +608,265 @@ digitalWrite(buzzer, HIGH); <!---// produce sound--->
 
 ##### *Code:-*
 
+#include <IRremote.h>
+
+int RECV_PIN = 11;
+
+int LED1 = 2;
+
+int LED2 = 3;
+
+int LED3 = 4;
+
+int LED4 = 5;
+
+int LED5 = 6;
+
+int LED6 = 7;
+
+long on1  = 0x00FF6897;
+
+long off1 = 0x00FF9867;
+
+long on2 = 0x00FFB04F;
+
+long off2 = 0x00FF30CF;
+
+long on3 = 0x00FF18E7;
+
+long off3 = 0x00FF7A85;
+
+long on4 = 0x00FF10EF;
+
+long off4 = 0x00FF38C7;
+
+long on5 = 0x00FF5AA5;
+
+long off5 = 0x00FF42BD;
+
+long on6 = 0x00FF4AB5;
+
+long off6 = 0x00FF52AD;
+
+IRrecv irrecv(RECV_PIN);
+
+decode_results results;
+
+// Dumps out the decode_results structure.
+
+// Call this after IRrecv::decode()
+
+// void * to work around compiler issue
+
+<!---//void dump(void *v) --->
+
+{
+
+<!---//  decode_results *results = (decode_results *)v--->
+void dump(decode_results *results*) 
+
+{
+
+int count = results->rawlen;
+
+if (results->decode_type == UNKNOWN) 
+
+{
+
+Serial.println("Could not decode message");
+
+} 
+
+else 
+
+{
+
+if (results->decode_type == NEC) 
+
+{
+
+Serial.print("Decoded NEC: ");
+
+} 
+
+else if (results->decode_type == SONY) 
+
+{
+       
+Serial.print("Decoded SONY: ");
+      
+} 
+    
+else if (results->decode_type == RC5) 
+
+{
+
+Serial.print("Decoded RC5: ");
+     
+} 
+    
+else if (results->decode_type == RC6) 
+      
+{
+       
+Serial.print("Decoded RC6: ");
+      
+}
+     
+Serial.print(results->value, HEX);
+
+Serial.print(" (");
+
+Serial.print(results->bits, DEC);
+
+Serial.println(" bits)");
+
+}
+
+Serial.print("Raw (");
+
+Serial.print(count, DEC);
+
+Serial.print("): ");
+
+for (int i = 0; i < count; i++) 
+
+{
+     
+if ((i % 2) == 1) {
+      
+Serial.print(results->rawbuf[i]** USECPERTICK, DEC);
+     
+} 
+    
+else  
+     
+{
+      
+Serial.print(-(int)results->rawbuf[i]*USECPERTICK, DEC);
+     
+}
+    
+Serial.print(" ");
+     
+}
+      
+Serial.println("");
+   
+}
+
+void setup()
+
+{
+
+pinMode(RECV_PIN, INPUT); 
+
+pinMode(LED1, OUTPUT);
+  
+pinMode(LED2, OUTPUT);
+
+pinMode(LED3, OUTPUT);
+
+pinMode(LED4, OUTPUT);
+
+pinMode(LED5, OUTPUT);
+
+pinMode(LED6, OUTPUT);  
+
+pinMode(13, OUTPUT);
+
+Serial.begin(9600);
+
+irrecv.enableIRIn(); <!---// Start the receiver --->
+
+}
+
+int on = 0;
+
+unsigned long last = millis();
+
+void loop() 
+
+{
+
+if (irrecv.decode(&results)) 
+
+{
+
+<!---// If it's been at least 1/4 second since the last --->
+
+<!---// IR received, toggle the relay --->
+
+if (millis() - last > 250) 
+
+{
+
+on = !on;
+
+digitalWrite(8, on ? HIGH : LOW);
+
+digitalWrite(13, on ? HIGH : LOW);
+       
+dump(&results);
+
+
+}
+
+if (results.value == on1 )
+
+digitalWrite(LED1, HIGH);
+
+if (results.value == off1 )
+
+digitalWrite(LED1, LOW); 
+
+if (results.value == on2 )
+
+digitalWrite(LED2, HIGH);
+
+if (results.value == off2 )
+
+digitalWrite(LED2, LOW); 
+
+if (results.value == on3 )
+
+digitalWrite(LED3, HIGH);
+
+if (results.value == off3 )
+
+digitalWrite(LED3, LOW);
+
+if (results.value == on4 )
+
+digitalWrite(LED4, HIGH);
+
+if (results.value == off4 )
+
+digitalWrite(LED4, LOW); 
+
+if (results.value == on5 )
+
+digitalWrite(LED5, HIGH);
+
+if (results.value == off5 )
+
+digitalWrite(LED5, LOW); 
+
+if (results.value == on6 )
+
+digitalWrite(LED6, HIGH);
+
+if (results.value == off6 )
+
+digitalWrite(LED6, LOW);        
+
+last = millis();      
+
+irrecv.resume(); <!---// Receive the next value --->
+
+}
+
+}
 
 ### Experiment No. 11
 #### Potentiometer Analog Value Reading
