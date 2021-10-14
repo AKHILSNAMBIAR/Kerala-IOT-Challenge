@@ -233,6 +233,28 @@ delay(200); <!--- //delay --->
 }
 
 
+### Experiment No. 4
+#### Button Controlled LED 
+##### *Aim:-*
+
+*To program an Arduino UNO for controlling an LED using a button and experimentally verify it.*
+
+##### *Components Required:-*
+
+| *No.* | *Component Name* | *Requirement* |
+| :---:         |     :---:      |          :---: |
+| *1*   | *Arduino Uno*    | *1*    |
+| *2*     | *Breadboard*       | *1*    |
+| *3*   | *Jumper wire (Male to Male)*     | *as per need*   |
+| *4*   | *Resistor (220ohms)*     | *1*      |
+| *5*   | *Resistor (1Kohms)*     | *1*      |
+| *6* | *LED*  | *1* |
+| *7*        | *USB Cable*     |   *1* |
+| *8* | *Button Switch*  | *1* |
+
+##### *Circuit Diagram:-*
+
+
 
 
 
