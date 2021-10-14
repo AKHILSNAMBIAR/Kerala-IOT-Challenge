@@ -361,6 +361,22 @@ delay(200); <!--- //delay --->
 | *8*        | *Infrared Receiver*     |   *1* |
 
 
+### Experiment No. 11
+#### Potentiometer Analog Value Reading
+##### *Aim:-*
+*To familiarize with Potentiometer analog value reading using Arduino Uno.*
+
+##### *Components Required:-*
+
+| *No.* | *Component Name* | *Requirement* |
+| :---:         |     :---:      |          :---: |
+| *1*   | *Arduino Uno*    | *1*    |
+| *2*     | *Breadboard*       | *1*    |
+| *3*   | *Jumper wire (Male to Male)*     | *as per need*   |
+| *4*   | *10Kohms Potentiometer*  | *1*      |
+| *5*        | *USB Cable*     |   *1* |
+
+
 
 
 
