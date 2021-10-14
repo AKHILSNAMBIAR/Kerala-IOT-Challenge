@@ -312,7 +312,7 @@ delay(200); <!--- //delay --->
 #### Flame Sensor
 ##### *Aim:-*
 
-*To familiarize with flame sensor using Arduino Uno.
+*To familiarize with flame sensor using Arduino Uno.*
 
 ##### *Components Required:-*
 
