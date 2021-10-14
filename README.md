@@ -48,7 +48,7 @@
 | :---:         |     :---:      |          :---: |
 | *1*   | *Arduino Uno*    | *1*    |
 | *2*     | *Breadboard*       | *1*    |
-| *3*   | *Jumper wire (Male to Male)*     | *2*   |
+| *3*   | *Jumper wire (Male to Male)*     | *as per need*   |
 | *4*   | *Resistor (220ohms)*     | *1*      |
 | *5* | *LED*  | *1* |
 | *6*        | *USB Cable*     |   *1* |
@@ -254,6 +254,22 @@ delay(200); <!--- //delay --->
 
 ##### *Circuit Diagram:-*
 
+### Experiment No. 1
+#### Buzzer
+##### *Aim:-*
+*To familiarize with buzzer using Arduino Uno.*
+
+##### *Components Required:-*
+
+| *No.* | *Component Name* | *Requirement* |
+| :---:         |     :---:      |          :---: |
+| *1*   | *Arduino Uno*    | *1*    |
+| *2*     | *Breadboard*       | *1*    |
+| *3*   | *Jumper wire (Male to Male)*     | *as per need*   |
+| *4*   | *Buzzer*     | *1*      |
+| *5*        | *USB Cable*     |   *1* |
+
+##### *Circuit Diagram:-*
 
 
 
