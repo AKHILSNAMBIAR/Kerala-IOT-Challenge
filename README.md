@@ -953,7 +953,7 @@ int e=11;<!---// set digital pin 11 for segment e--->
 
 int f=8;<!---// set digital pin 8 for segment f--->
 
-int g=9;<!---// set digital pin 9 for segment g--->--->
+int g=9;<!---// set digital pin 9 for segment g--->
 
 int dp=4;<!---// set digital pin 4 for segment dp--->
 
