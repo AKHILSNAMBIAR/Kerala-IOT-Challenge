@@ -254,6 +254,8 @@ delay(200); <!--- //delay --->
 
 ##### *Circuit Diagram:-*
 
+##### *Code:-*
+
 ### Experiment No. 5
 #### Buzzer
 ##### *Aim:-*
@@ -271,6 +273,8 @@ delay(200); <!--- //delay --->
 
 ##### *Circuit Diagram:-*
 
+##### *Code:-*
+
 ### Experiment No. 6
 #### RGB LED
 ##### *Aim:-*
@@ -287,6 +291,8 @@ delay(200); <!--- //delay --->
 | *5*        | *USB Cable*     |   *1* |
 
 ##### *Circuit Diagram:-*
+
+##### *Code:-*
 
 
 ### Experiment No. 7
@@ -308,6 +314,10 @@ delay(200); <!--- //delay --->
 | *7*        | *USB Cable*     |   *1* |
 | *8* | *LDR sensor*  | *1* |
 
+##### *Circuit Diagram:-*
+
+##### *Code:-*
+
 ### Experiment No. 8
 #### Flame Sensor
 ##### *Aim:-*
@@ -326,6 +336,10 @@ delay(200); <!--- //delay --->
 | *6*        | *USB Cable*     |   *1* |
 | *7*        | *Flame Sensor*     |   *1* |
 
+##### *Circuit Diagram:-*
+
+##### *Code:-*
+
 ### Experiment No. 9
 #### LM35 Sensor
 ##### *Aim:-*
@@ -340,6 +354,10 @@ delay(200); <!--- //delay --->
 | *3*   | *Jumper wire (Male to Male)*     | *as per need*   |
 | *4*   | *LM35 Sensor*     | *1*      |
 | *5*        | *USB Cable*     |   *1* |
+
+##### *Circuit Diagram:-*
+
+##### *Code:-*
 
 ### Experiment No. 10
 #### IR Remote Control Using TSOP 
@@ -360,6 +378,10 @@ delay(200); <!--- //delay --->
 | *7*        | *Infrared Remote Control*     |   *1* |
 | *8*        | *Infrared Receiver*     |   *1* |
 
+##### *Circuit Diagram:-*
+
+##### *Code:-*
+
 
 ### Experiment No. 11
 #### Potentiometer Analog Value Reading
@@ -375,6 +397,10 @@ delay(200); <!--- //delay --->
 | *3*   | *Jumper wire (Male to Male)*     | *as per need*   |
 | *4*   | *10Kohms Potentiometer*  | *1*      |
 | *5*        | *USB Cable*     |   *1* |
+
+##### *Circuit Diagram:-*
+
+##### *Code:-*
 
 ### Experiment No. 12
 #### 7 Segment Display
@@ -392,6 +418,10 @@ delay(200); <!--- //delay --->
 | *4*   | *Resistor (220ohms)*     | *8*      |
 | *5* | *1-digit LED Segment Display*  | *1* |
 | *6*        | *USB Cable*     |   *1* |
+
+##### *Circuit Diagram:-*
+
+##### *Code:-*
 
 
 
