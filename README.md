@@ -341,6 +341,26 @@ delay(200); <!--- //delay --->
 | *4*   | *LM35 Sensor*     | *1*      |
 | *5*        | *USB Cable*     |   *1* |
 
+### Experiment No. 10
+#### IR Remote Control Using TSOP 
+##### *Aim:-*
+
+*To familiarize with IR Remote Control using Arduino Uno and TSOP.*
+
+##### *Components Required:-*
+
+| *No.* | *Component Name* | *Requirement* |
+| :---:         |     :---:      |          :---: |
+| *1*   | *Arduino Uno*    | *1*    |
+| *2*     | *Breadboard*       | *1*    |
+| *3*   | *Jumper wire (Male to Male)*     | *as per need*   |
+| *4*   | *Resistor (220ohms)*     | *6*      |
+| *5* | *LED*  | *6* |
+| *6*        | *USB Cable*     |   *1* |
+| *7*        | *Infrared Remote Control*     |   *1* |
+| *8*        | *Infrared Receiver*     |   *1* |
+
+
 
 
 
