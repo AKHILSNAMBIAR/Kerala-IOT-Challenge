@@ -308,6 +308,23 @@ delay(200); <!--- //delay --->
 | *7*        | *USB Cable*     |   *1* |
 | *8* | *LDR sensor*  | *1* |
 
+### Experiment No. 5
+#### Flame Sensor
+##### *Aim:-*
+
+*To familiarize with flame sensor using Arduino Uno.
+
+##### *Components Required:-*
+
+| *No.* | *Component Name* | *Requirement* |
+| :---:         |     :---:      |          :---: |
+| *1*   | *Arduino Uno*    | *1*    |
+| *2*     | *Breadboard*       | *1*    |
+| *3*   | *Jumper wire (Male to Male)*     | *as per need*   |
+| *4*   | *Resistor (10Kohms)*     | *1*      |
+| *5* | *Buzzer*  | *6* |
+| *6*        | *USB Cable*     |   *1* |
+| *7*        | *Flame Sensor*     |   *1* |
 
 
 
