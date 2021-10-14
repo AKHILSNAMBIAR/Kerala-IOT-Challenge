@@ -289,6 +289,26 @@ delay(200); <!--- //delay --->
 ##### *Circuit Diagram:-*
 
 
+### Experiment No. 7
+#### Button Controlled LED 
+##### *Aim:-*
+
+*To familiarize with LDR light Sensor using Arduino Uno.*
+
+##### *Components Required:-*
+
+| *No.* | *Component Name* | *Requirement* |
+| :---:         |     :---:      |          :---: |
+| *1*   | *Arduino Uno*    | *1*    |
+| *2*     | *Breadboard*       | *1*    |
+| *3*   | *Jumper wire (Male to Male)*     | *as per need*   |
+| *4*   | *Resistor (220ohms)*     | *1*      |
+| *5*   | *Resistor (1Kohms)*     | *1*      |
+| *6* | *LED*  | *1* |
+| *7*        | *USB Cable*     |   *1* |
+| *8* | *LDR sensor*  | *1* |
+
+
 
 
 
