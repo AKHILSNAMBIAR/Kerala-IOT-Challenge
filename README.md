@@ -233,7 +233,7 @@ delay(200); <!--- //delay --->
 
 ##### *Video Tutorial:-*
 
-<video src="https://user-images.githubusercontent.com/91836479/137472022-0953fcd3-0f56-422b-b555-2743172bad6a.mp4" controls="" width="50%" height="50%"></video>
+<video src="https://user-images.githubusercontent.com/91836479/137472022-0953fcd3-0f56-422b-b555-2743172bad6a.mp4" controls="" width="150%" height="150%"></video>
 
 
 ### Experiment No. 4
