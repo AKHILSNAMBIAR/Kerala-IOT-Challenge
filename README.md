@@ -305,6 +305,11 @@ digitalWrite(ledpin,HIGH);
 
 }
 
+##### *Video Tutorial:-*
+
+https://user-images.githubusercontent.com/91836479/137473752-d73eb118-0721-48f8-b76a-b3762b072b3c.mp4
+
+
 ### Experiment No. 5
 #### Buzzer
 ##### *Aim:-*
@@ -341,6 +346,10 @@ void loop()
 digitalWrite(buzzer, HIGH); <!---// produce sound--->
 
 }
+
+##### *Video Tutorial:-*
+
+https://user-images.githubusercontent.com/91836479/137473988-f69a222b-9868-4c9f-a922-9d56a7b1dd61.mp4
 
 
 ### Experiment No. 6
