@@ -86,7 +86,7 @@ delay(1000);<!---// wait for a second--->
 
 ##### *Video Tutorial:-*
 
-
+https://user-images.githubusercontent.com/91836479/137471486-7528db3d-26c9-456d-8436-10b40dcd6fdf.mp4
 
 
 ### Experiment No. 2
@@ -166,6 +166,8 @@ digitalWrite(redled, LOW); <!---// turn off red LED--->
 
 ##### *Video Tutorial:-*
 
+https://user-images.githubusercontent.com/91836479/137471820-0b5a0676-b2de-4313-b3ba-6a2d8f3b9ed7.mp4
+
 
 ### Experiment No. 3
 #### Chasing Effect 
@@ -234,6 +236,10 @@ delay(200); <!--- //delay --->
    
 }
 
+##### *Video Tutorial:-*
+
+https://user-images.githubusercontent.com/91836479/137472022-0953fcd3-0f56-422b-b555-2743172bad6a.mp4
+
 
 ### Experiment No. 4
 #### Button Controlled LED 
@@ -255,6 +261,7 @@ delay(200); <!--- //delay --->
 | *8* | *Button Switch*  | *1* |
 
 ##### *Circuit Diagram:-*
+
 
 ##### *Code:-*
 
