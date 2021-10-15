@@ -257,6 +257,7 @@ delay(200); <!--- //delay --->
 
 ##### *Circuit Diagram:-*
 
+(![image](https://user-images.githubusercontent.com/91836479/137517135-ff2ade1b-f0e5-4117-b1ae-34c17c28a5ac.png)
 
 ##### *Code:-*
 
