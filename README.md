@@ -81,7 +81,7 @@ delay(1000);<!---// wait for a second--->
 
 ##### *Video Tutorial:-*
 
-<video src="https://user-images.githubusercontent.com/91836479/137487506-2c81113e-5992-41c7-b0f0-62637ed940ec.mp4" controls="" width="70%" height="50%"></video>
+<video src="https://user-images.githubusercontent.com/91836479/137487506-2c81113e-5992-41c7-b0f0-62637ed940ec.mp4" controls="" width="50%" height="70%"></video>
 
 
 ### Experiment No. 2
@@ -161,7 +161,7 @@ digitalWrite(redled, LOW); <!---// turn off red LED--->
 
 ##### *Video Tutorial:-*
 
-<video src="https://user-images.githubusercontent.com/91836479/137471820-0b5a0676-b2de-4313-b3ba-6a2d8f3b9ed7.mp4" controls="" width="70%" height="50%"></video>
+<video src="https://user-images.githubusercontent.com/91836479/137471820-0b5a0676-b2de-4313-b3ba-6a2d8f3b9ed7.mp4" controls="" width="50%" height="70%"></video>
 
 
 ### Experiment No. 3
@@ -302,7 +302,7 @@ digitalWrite(ledpin,HIGH);
 
 ##### *Video Tutorial:-*
 
-<video src="https://user-images.githubusercontent.com/91836479/137473752-d73eb118-0721-48f8-b76a-b3762b072b3c.mp4" controls="" width="70%" height="50%"></video>
+<video src="https://user-images.githubusercontent.com/91836479/137473752-d73eb118-0721-48f8-b76a-b3762b072b3c.mp4" controls="" width="50%" height="70%"></video>
 
 
 ### Experiment No. 5
@@ -344,7 +344,7 @@ digitalWrite(buzzer, HIGH); <!---// produce sound--->
 
 ##### *Video Tutorial:-*
 
-<video src="https://user-images.githubusercontent.com/91836479/137473988-f69a222b-9868-4c9f-a922-9d56a7b1dd61.mp4" controls="" width="70%" height="50%"></video>
+<video src="https://user-images.githubusercontent.com/91836479/137473988-f69a222b-9868-4c9f-a922-9d56a7b1dd61.mp4" controls="" width="50%" height="70%"></video>
 
 
 ### Experiment No. 6
