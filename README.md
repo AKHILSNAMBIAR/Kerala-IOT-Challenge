@@ -323,6 +323,8 @@ digitalWrite(ledpin,HIGH);
 
 ##### *Circuit Diagram:-*
 
+![-a](https://user-images.githubusercontent.com/91836479/137517717-7e1e363b-a2a3-418a-ab78-ea12b406610e.jpg)
+
 ##### *Code:-*
 
 int buzzer=8;<!---// initialize digital IO pin that controls the buzzer--->
@@ -363,7 +365,9 @@ digitalWrite(buzzer, HIGH); <!---// produce sound--->
 | *4*   | *RGB LED*  | *1*      |
 | *5*        | *USB Cable*     |   *1* |
 
-##### *Circuit Diagram:-*
+<!---##### *Circuit Diagram:-*
+
+![-a](https://user-images.githubusercontent.com/91836479/137517717-7e1e363b-a2a3-418a-ab78-ea12b406610e.jpg)--->
 
 ##### *Code:-*
 int redpin = 11; <!---//select the pin for the red LED--->
@@ -425,8 +429,9 @@ Serial.println(val, DEC);
 }
 
 
+##### *Simulation:-*
 
-
+![3](https://user-images.githubusercontent.com/91836479/137518042-1744648f-9123-48bd-8615-8a71a15777d9.jpg)
 
 
 
