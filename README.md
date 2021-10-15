@@ -81,7 +81,7 @@ delay(1000);<!---// wait for a second--->
 
 ##### *Video Tutorial:-*
 
-<video src="https://user-images.githubusercontent.com/91836479/137487506-2c81113e-5992-41c7-b0f0-62637ed940ec.mp4" controls="" width="150%" height="50%"></video>
+<video src="https://user-images.githubusercontent.com/91836479/137487506-2c81113e-5992-41c7-b0f0-62637ed940ec.mp4" controls="" width="100%" height="50%"></video>
 
 
 ### Experiment No. 2
